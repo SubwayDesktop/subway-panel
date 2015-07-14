@@ -23,8 +23,8 @@
 
 #include <QtGui/QToolButton>
 #include <QtGui/QPushButton>
-#include <X11/Xlib.h>
 #include <libsubway/xfitman.h>
+#include <X11/Xlib.h>
 
 class InstanceOfWindow : public QPushButton //QToolButton
 {

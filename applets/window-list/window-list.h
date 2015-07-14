@@ -21,6 +21,9 @@
 #ifndef WINDOW_LIST_H
 #define WINDOW_LIST_H
 
+#include <QApplication>
+#include <X11/X.h>
+
 #include <QMetaType>
 #include <QMenu>
 #include <QWidget>

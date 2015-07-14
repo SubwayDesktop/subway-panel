@@ -8,9 +8,9 @@
 // A terrible hack... Qt do not allow include <X11/X.h> before <QApplication>
 #include <QApplication>
 #include <QtGui/QFrame>
+#include <QBoxLayout>
 #include <X11/X.h>
 #include <libsubway/xfitman.h>
-#include <QBoxLayout>
 
 class subway_panel : public QFrame
 {
